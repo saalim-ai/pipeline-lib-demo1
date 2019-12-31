@@ -1,6 +1,6 @@
 pipeline {
 	agent any
-	stage {
+	stages {
 		stage('Demo'){
 		 steps {
 		   echo 'Hello Saalim'
