@@ -1,6 +1,8 @@
 pipeline {
 	agent any
-library 'demolib@master'
+	libraries {
+		lib('demolib@master')
+	}
 	stages {
 		stage('Demo'){
 		 steps {
