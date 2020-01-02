@@ -6,7 +6,7 @@ pipeline {
 	stages {
 		stage('Demo'){
 		 steps {
-		   echo 'Hello Saalim'
+		   Hello 'check123'
 			}
 		}
 	}
